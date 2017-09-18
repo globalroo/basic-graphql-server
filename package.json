@@ -1,0 +1,35 @@
+{
+  "name": "basic-graphql-server",
+  "version": "0.0.1",
+  "description": "A basic GraphQL server demonstrating resolvers and types",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node --presets node6",
+    "clean": "rimraf _build",
+    "lint": "eslint src/**/*.js",
+    "package": "yarn run clean && rimraf node_modules",
+    "test": "jest --config jest.config.json && codecov"
+  },
+  "author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-node": "^5.1.1",
+    "babel-preset-node6": "11.0.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "eslint": "^4.7.0",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.3",
+    "jest": "^21.1.0",
+    "jest-cli": "^21.1.0",
+    "nodemon": "1.11.0",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^2.3.0"
+  }
+}

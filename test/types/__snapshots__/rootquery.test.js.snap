@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphQL Resolvers: getAspectQuery getAspectQuery expects correct args 1`] = `
+Object {
+  "aspect": Object {
+    "description": "The Aspect required",
+    "type": "String!",
+  },
+}
+`;
+
+exports[`GraphQL Resolvers: getVideoQuery getVideoQuery expects correct args 1`] = `
+Object {
+  "id": Object {
+    "description": "The ID",
+    "type": "Int",
+  },
+  "title": Object {
+    "description": "The Title",
+    "type": "String",
+  },
+}
+`;
+
+exports[`GraphQL Resolvers: getVideosQuery getVideosQuery expects correct args 1`] = `
+Object {
+  "aspect": Object {
+    "description": "Optional Aspect",
+    "type": "String",
+  },
+}
+`;
