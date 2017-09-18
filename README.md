@@ -16,6 +16,8 @@ yarn start or yarn test
 
 ## Basic usage
 
+Browse to localhost:4000 and enter some GraphQL queries:
+
 ```graphql
 {
 	aspect(aspect: "16x9") {
@@ -42,21 +44,21 @@ yarn start or yarn test
 
 ```graphql
 {
-  video(id: 1){
-    title,
-    synopsis,
-    posterPath,
-    releaseDate,
-    relatedVideos {
-      title,
-      relatedVideos {
-        title,
-        relatedVideos {
-          title
-        }
-      }
-    }
-  }
+	video(id: 1){
+	title,
+	synopsis,
+	posterPath,
+	releaseDate,
+	relatedVideos {
+		title,
+		relatedVideos {
+			title,
+			relatedVideos {
+				title
+			}
+		}
+	}
+	}
 }
 ```
 
@@ -72,4 +74,4 @@ yarn start or yarn test
 
 Images and meta data courtesy of https://www.themoviedb.org/
 This product uses the TMDb API but is not endorsed or certified by TMDb.
-![The Movie DB](https://github.com/globalroo/basic-graphql-server/312x276-primary-green.png)
+![The Movie DB](https://github.com/globalroo/basic-graphql-server/blob/master/312x276-primary-green.png)
