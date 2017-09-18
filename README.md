@@ -1,4 +1,4 @@
-# jest-vanillajs-webpack [![Build Status](https://travis-ci.org/globalroo/jest-vanillajs-webpack.svg?branch=master)](https://travis-ci.org/globalroo/jest-vanillajs-webpack)[![codecov](https://codecov.io/gh/globalroo/jest-vanillajs-webpack/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/jest-vanillajs-webpack)
+# basic-graphql-server [![Build Status](https://travis-ci.org/globalroo/basic-graphql-server.svg?branch=master)](https://travis-ci.org/globalroo/basic-graphql-server)[![codecov](https://codecov.io/gh/globalroo/basic-graphql-server/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/basic-graphql-server)
 
 > A bare bones GraphQL server
 
