@@ -72,6 +72,7 @@ Browse to localhost:4000 and enter some GraphQL queries:
 - ESLint
 - VSCode
 
-Images and meta data courtesy of https://www.themoviedb.org/
-This product uses the TMDb API but is not endorsed or certified by TMDb.
+- Images and meta data courtesy of https://www.themoviedb.org/
+- This product uses the TMDb API but is not endorsed or certified by TMDb.
+
 ![The Movie DB](https://github.com/globalroo/basic-graphql-server/blob/master/312x276-primary-green.png)
