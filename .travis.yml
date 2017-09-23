@@ -6,9 +6,5 @@ node_js:
   - "7"
 install:
   - yarn
-  addons:
-  sonarcloud:
-    organization: "Andy"
-
 script:
-  - yarn test && sonar-scanner
+  - yarn test
